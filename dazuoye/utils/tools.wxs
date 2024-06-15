@@ -1,0 +1,15 @@
+function splitPhone(str) {
+  if (str.length !== 11) {
+    return str
+  }
+  //把str中的每个字符分割成arr数组中的一个元素
+  var arr = str.split('')
+  //在arr数组中索引是3的位置插入'-'
+  arr.splice(3, 0, '-')
+  //在arr数组中索引是8的位置插入'-'
+  arr.splice(8, 0, '-')
+  return arr.join('')//将数组元素无缝拼接
+}
+module.exports = {
+  splitPhone: splitPhone
+}

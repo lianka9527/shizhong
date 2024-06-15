@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "学累了补充点能量吧",
+  "onReachBottomDistance": 50,
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#efefef",
+  "backgroundTextStyle": "dark"
+}
